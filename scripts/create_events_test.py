@@ -26,6 +26,8 @@ SCOPES)
           if flags else tools.run(flow, store)
 CAL = build('calendar', 'v3', http=creds.authorize(Http()))
 
+GMT_OFF = '+00:00'          # GMT
+
 # Google API stuff
 from apiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -65,20 +67,32 @@ for tag in a:
     #     end_time_obj = datetime.datetime.strptime(end_time, '%I:%M:%S%p')
     #     end_time = datetime.strptime(end_time, '%H:%M:%S')
         # end_time = end_time_obj.time()
-    datestarttime = date+'T'+start_time
-    dateendtime = date+'T'+end_time
-    print(datestarttime)
-    print(dateendtime)
+
+    start_date_str = date + start_time
+    end_date_str = date + end_time
+
+    start_date = datetime.datetime.strptime(start_date_str, '%Y-%m-%d%I:%M%p')
+    end_date = datetime.datetime.strptime(end_date_str, '%Y-%m-%d%I:%M%p')
+    start_date = start_date.isoformat()
+    end_date = end_date.isoformat()
+
+    # print(start_date.isoformat())
+    # print(end_date.isoformat())
+
+    # datestarttime = date+'T'+start_time
+    # dateendtime = date+'T'+end_time
+    # print(datestarttime)
+    # print(dateendtime)
     print(location)
     print(' ')
 
 # Adding event to google calendar
 
     EVENT = {
-        'name': dict['name'],
-        'start': {'dateTime': 'datestarttime'},
-        'end': {'dateTime': 'dateendtime'},
-        'location': {'location': location}
+        'name': name,
+        'start': {'dateTime': start_date},
+        'end': {'dateTime': end_date},
+        'location': {'location': location},
     }
     e = CAL.events().insert(calendarId='primary',
                     sendNotifications=True, body=EVENT).execute()
