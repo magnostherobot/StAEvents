@@ -391,12 +391,12 @@ hr {
 
 .md-btn--link {
     background-color: transparent;
-    color: #fe6565;
+    color: #5436d9;
 }
 
 .md-btn--link:hover {
     background-color: transparent;
-    color: #fe6565;
+    color: #5436d9;
     text-decoration: underline;
 }
 
@@ -411,7 +411,7 @@ hr {
 }
 
 .md-btn--dark:hover {
-    background-color: #fe6565;
+    background-color: #5436d9;
     color: #fff;
 }
 
@@ -523,7 +523,7 @@ product__number:not([type="text"]):-ms-input-placeholder {
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):focus,
 select2:focus, textarea:focus, select:focus,
 product__number:not([type="text"]):focus {
-    border-color: #19c2c9;
+    border-color: #5436d9;
 }
 
 input:not([type="button"]):not([type="submit"]):not([type="radio"]):not([type="checkbox"]):not([type="color"]):focus::-webkit-input-placeholder,
