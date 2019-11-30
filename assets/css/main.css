@@ -290,7 +290,7 @@ hr {
     text-align: center;
     font-size: 14px;
     padding: 9px 12px;
-    color: ##5436d9;
+    color: #5436d9;
     background-color: transparent;
     transition: all .3s ease;
     text-decoration: none;
@@ -589,7 +589,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    color: #748182;
+    color: #5436d9;
 }
 
 body.md-skin-dark {
@@ -717,7 +717,7 @@ abbr {
 }
 
 mark, .mark {
-    background-color: #19c2c9;
+    background-color: #5436d9;
     color: #fff;
 }
 
@@ -1921,7 +1921,7 @@ ul {
     }
 
     .onepage-nav li:hover > a {
-        color: #19c2c9;
+        color: #5436d9;
     }
 
     .onepage-nav .onepage-menu .sub-menu {
