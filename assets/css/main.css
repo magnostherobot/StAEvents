@@ -225,12 +225,12 @@ img {
     }
 }
 a {
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 a:hover {
     text-decoration: none;
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 a:focus {
@@ -290,7 +290,7 @@ hr {
     text-align: center;
     font-size: 14px;
     padding: 9px 12px;
-    color: #000;
+    color: ##5436d9;
     background-color: transparent;
     transition: all .3s ease;
     text-decoration: none;
@@ -315,7 +315,7 @@ hr {
 }
 
 .md-btn--primary {
-    background-color: #19c2c9;
+    background-color: #5436d9;
     color: #fff;
 }
 
@@ -1518,7 +1518,7 @@ ul {
 }
 
 .filter li.current a {
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 .filter a {
@@ -1610,7 +1610,7 @@ ul {
 }
 
 .post__title a:hover {
-    color: #19c2c9;
+    color: ##5436d9;
 }
 
 .post__text {
@@ -1640,7 +1640,7 @@ ul {
 }
 
 .service:hover .service__title, .service:hover .service__icon {
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 .service__title, .service__icon {
@@ -1840,7 +1840,7 @@ ul {
 }
 
 .footer__social a:hover {
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 .footer__copy {
@@ -1984,12 +1984,12 @@ ul {
 
     .onepage-nav .onepage-menu .sub-menu .current-menu-parent > a,
     .onepage-nav .onepage-menu .sub-menu .current-menu-item > a {
-        color: #19c2c9;
+        color: #5436d9;
     }
 
     .onepage-nav .onepage-menu .current-menu-parent > a,
     .onepage-nav .onepage-menu .current-menu-item > a {
-        color: #19c2c9;
+        color: #5436d9;
     }
 
     .onepage-nav .onepage-menu .sub-menu {
@@ -2124,7 +2124,7 @@ ul {
 }
 
 .onepage-nav li.current a {
-    color: #19c2c9;
+    color: #5436d9;
 }
 
 .onepage-menu.active ~ .navbar-toggle span:nth-child(1) {
@@ -2152,7 +2152,7 @@ ul {
         left: 20px;
         width: 0;
         height: 2px;
-        background-color: #19c2c9;
+        background-color: #5436d9;
         transition: all .3s ease;
     }
 
@@ -2183,7 +2183,7 @@ ul {
     display: block;
     height: 3px;
     width: 100%;
-    background-color: #19c2c9;
+    background-color: #5436d9;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -2513,7 +2513,7 @@ ul {
 .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
-    background-color: #19c2c9;
+    background-color: #5436d9;
     vertical-align: middle;
 }
 
